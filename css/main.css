@@ -3,3 +3,28 @@
     font-size: large;
 }
 /*Control + Foeward Slash makes a comment */
+
+div{
+    width: 100px;
+    height:100px;
+    color: aqua;
+    border: 1px solid red;
+    border-radius: 25px;
+}
+/*Control plus spacebar while entering properies gives choices*/
+img{
+    border: groove brown 10px;
+}
+
+.sun1{
+    border: groove aqua 10px;
+    border-radius: 50px;
+}
+
+.sun2{
+    border: groove darkgreen 10px;
+    border-radius: 50%;
+}
+
+/*Alt plus J = selecting next occcurence    */
+
