@@ -11,11 +11,38 @@ div{
     border: 1px solid red;
     border-radius: 25px;
 }
+
+.pup{
+    width: 100px;
+    height:100px;
+    color: aqua;
+    border: 1px solid red;
+    border-radius: 50px;
+    background-image: url("../img/pup.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin: 20px;
+    /*inline-block will cause a div to be inline*/
+}
+
+/*div has a block property, one on top of the other*/
+div#circle{
+    width: 200px;
+    height:200px;
+    color: darkcyan;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../img/sunset.jpg");
+    background-size: cover;
+
+}
+
+
 /*Control plus spacebar while entering properies gives choices*/
 img{
     border: groove brown 10px;
 }
-
+/*img has an inline property*/
 .sun1{
     border: groove aqua 10px;
     border-radius: 50px;
@@ -23,7 +50,11 @@ img{
 
 .sun2{
     border: groove darkgreen 10px;
-    border-radius: 50%;
+    border-radius: 100%;
+    width: 200px;
+    height:200px;
+    padding: 5px;
+    /*padding is space between content and border*/
 }
 
 /*Alt plus J = selecting next occcurence    */
