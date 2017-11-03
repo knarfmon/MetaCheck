@@ -17,11 +17,13 @@ div{
     height:100px;
     color: aqua;
     border: 1px solid red;
-    border-radius: 50px;
+    /*border-radius: 50px;*/
     background-image: url("../img/pup.jpg");
     background-size: cover;
     display: inline-block;
-    margin: 20px;
+    /*margin: 20px;*/
+    /*box-sizing: border-box; constraned to width, internal shrinking*/
+    box-sizing: border-box;
     /*inline-block will cause a div to be inline*/
 }
 
@@ -59,3 +61,30 @@ img{
 
 /*Alt plus J = selecting next occcurence    */
 
+div#test{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+
+    border-radius: 30px;
+    border: groove brown 20px;
+}
+
+div.poop{
+    width:400px;
+    height: 200px;
+    border: dashed deeppink 40px;
+    margin:  20px auto;
+    background-color: red;
+}
+
+div.poop2{
+    width:400px;
+    height: 200px;
+    border: dashed deeppink 40px;
+    margin:  20px auto;
+    box-sizing: border-box;
+    background-image: url("../img/pup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
