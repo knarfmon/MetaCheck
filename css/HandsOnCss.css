@@ -1,0 +1,36 @@
+#third {
+    color: red;
+}
+.emp{
+    color: red;
+}
+
+[target = "_blank"]{
+    border: solid red ;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+
+p::first-letter{
+    font-family: Cursive;
+    font-size: 36px;
+    line-height: .5px;
+}
+p::first-line{
+    color: red;
+    font-weight: 900;
+}
+div>p{
+    color: red;
+}

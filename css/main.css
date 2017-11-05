@@ -28,7 +28,7 @@ div{
 }
 
 /*div has a block property, one on top of the other*/
-div#circle{
+#circle{
     width: 200px;
     height:200px;
     color: darkcyan;
@@ -61,7 +61,7 @@ img{
 
 /*Alt plus J = selecting next occcurence    */
 
-div#test{
+#test{
     width: 100px;
     height: 100px;
     background-color: crimson;
@@ -70,7 +70,7 @@ div#test{
     border: groove brown 20px;
 }
 
-div.poop{
+.poop{
     width:400px;
     height: 200px;
     border: dashed deeppink 40px;
@@ -78,7 +78,7 @@ div.poop{
     background-color: red;
 }
 
-div.poop2{
+.poop2{
     width:400px;
     height: 200px;
     border: dashed deeppink 40px;
@@ -87,4 +87,23 @@ div.poop2{
     background-image: url("../img/pup.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+/*LVHA*/
+a:link{
+    color: blue;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+
+p::first-letter{
+    font-family: cursive;
+    font-size: 35px;
+    line-height: .5px;
 }
