@@ -1,0 +1,31 @@
+.sans{
+    font-family: sans-serif;
+}
+.serif{
+    font-family: serif;
+}
+
+#one{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}#two{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}#three{
+      font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}#four{
+       font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+ #trans{
+     text-transform: uppercase;
+     font-style: italic;
+ }
+ #kern{
+     letter-spacing: 10px;
+  }
+#shadow{
+    text-shadow:1px 1px 1px Orange;
+}
