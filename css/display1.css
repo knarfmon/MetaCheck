@@ -1,0 +1,32 @@
+.displayRed{
+    height: 25px;
+    width: 50px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: red;
+}
+.displayBlue{
+    height: 25px;
+    width: 50px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: Blue;
+}
+.displayYellow{
+    height: 25px;
+    width: 50px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: Yellow;
+}
+.displayGreen{
+    height: 25px;
+    width: 50px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: Green;
+}

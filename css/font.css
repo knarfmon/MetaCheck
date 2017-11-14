@@ -29,3 +29,16 @@
 #shadow{
     text-shadow:1px 1px 1px Orange;
 }
+#underline{
+    text-decoration: none;
+
+}
+#underline:hover{
+    text-decoration: underline;
+}
+#strike{
+    text-decoration: line-through;
+}
+#indent{
+    text-indent: 5rem;
+}
