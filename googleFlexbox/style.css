@@ -1,0 +1,30 @@
+div{
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+div:first-child{
+    background-image: url("../img/pup.jpg");
+}
+div:nth-child(2){
+    background-image: url("../img/pup.jpg");
+}
+div:nth-child(3) {
+    background-image: url("../img/pup.jpg");
+}
+
+div:nth-child(4) {
+    background-image: url("../img/pup.jpg");
+}
+
+div:nth-child(5) {
+    background-image: url("../img/pup.jpg");
+}
+
+div:nth-child(6) {
+    background-color: #ccecff;
+}
+
+div:last-child {
+    background-color: #c89884;
+}
