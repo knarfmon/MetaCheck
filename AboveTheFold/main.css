@@ -5,9 +5,7 @@ html, body, div {
     box-sizing: border-box;
 }
 
-html {
-    color: whitesmoke;
-}
+
 
 div {
     display: flex;

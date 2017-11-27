@@ -1,0 +1,21 @@
+body{
+    padding:0 2em;
+}
+
+aside:nth-child(3){
+    width:15%;
+    order:1;
+}
+
+aside:nth-child(4){
+   width:15%;
+    order:3;
+}
+
+article {
+    width: 70%;
+    order: 2;
+}
+footer{
+    order:4;
+}

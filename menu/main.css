@@ -5,9 +5,15 @@ html, body, ul, li, a {
     box-sizing: border-box;
 }
 
-ul {
+nav {
     display: flex;
     flex-flow: column nowrap;
+    padding: 0 30px;
+    text-align: center;
+}
+
+li{
+
 }
 
 a {
